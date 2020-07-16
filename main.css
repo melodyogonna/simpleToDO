@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+  width: 100%;
+  margin: auto;
+  padding: 0.4rem;
+}
+@media screen and (min-width: 576px) {
+  main {
+    width: 30rem;
+  }
+}
+.list-unstyled {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.btn {
+  background-color: inherit;
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+.btn.btn--add-todo {
+  background-color: #0470a8;
+  color: #edeff6;
+}
+.btn.btn--edit-todo {
+  background-color: #0e89ce;
+  color: #e9f0f1;
+  margin-right: 0.3rem;
+}
+.btn.btn--delete-todo {
+  background-color: #cb1111;
+  color: #f1e3e3;
+}
+.todo-input {
+  width: 100%;
+  border: 1px solid hsla(5, 0, 70, 0.2);
+  height: 2rem;
+  margin-bottom: 0.3rem;
+  padding: 0.2rem 0.4rem;
+}
+.add-form {
+  margin-top: 3rem;
+}
+.my-todos {
+  margin-top: 3rem;
+}
+.my-todos header h2 {
+  margin-bottom: 1rem;
+  color: #252323;
+}
+.my-todos__item {
+  background-color: hsl(0, 0%, 85%);
+  padding: 0.7rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+.my-todos__item-name {
+  color: #252323;
+  margin-bottom: 0.5rem;
+}
